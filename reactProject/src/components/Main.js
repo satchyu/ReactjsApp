@@ -1,6 +1,7 @@
 
 import React from 'react';
 import LeftNav from 'components/LeftNav/LeftNav';
+import LoginForm from 'components/LoginForm/LoginForm';
 
 
 let yeomanImage = require('../images/yeoman.png');
@@ -12,6 +13,7 @@ class AppComponent extends React.Component {
         <img src={yeomanImage} alt="Yeoman Generator" />
         <div className="Main_header">Personal Details Management App</div>
         <LeftNav/>
+        <LoginForm/>
       </div>
     );
   }
